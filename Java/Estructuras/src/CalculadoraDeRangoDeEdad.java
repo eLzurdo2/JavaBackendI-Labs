@@ -18,7 +18,7 @@ public class CalculadoraDeRangoDeEdad {
         } else if (edad >= 18 && edad <= 60) {
             System.out.println("Usted es un Adulto");
 
-        } else if (edad >= 60 ) {
+        } else {
             System.out.println("Usted es un Anciano");
 
         }
