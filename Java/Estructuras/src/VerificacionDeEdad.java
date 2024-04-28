@@ -8,6 +8,8 @@ public class VerificacionDeEdad {
 
         if (edad >= 18) {
             System.out.println("Eres  mayor de edad");
+        } else if (edad <= 0) {
+            System.out.println("Error, numero de edad incorrecto.");
         } else {
             System.out.println("Eres menor de edad");
         }

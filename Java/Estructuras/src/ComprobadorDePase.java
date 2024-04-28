@@ -16,5 +16,6 @@ public class ComprobadorDePase {
         } else  {
             System.out.println("Desaprobado");
         }
+        sc.close();
     }
 }

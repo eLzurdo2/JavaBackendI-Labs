@@ -14,5 +14,6 @@ public class ClasificadorDeNumeros {
         } else {
             System.out.println("Su numero es negativo");
         }
+        sc.close();
     }
 }
