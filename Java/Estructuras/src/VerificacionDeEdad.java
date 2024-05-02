@@ -6,7 +6,7 @@ public class VerificacionDeEdad {
         System.out.println("Ingrese su edad:");
         int edad = sc.nextInt();
 
-        if (edad >= 18) {
+          if (edad >= 18) {
             System.out.println("Eres  mayor de edad");
         } else if (edad <= 0) {
             System.out.println("Error, numero de edad incorrecto.");
@@ -17,3 +17,4 @@ public class VerificacionDeEdad {
 
     }
 }
+
