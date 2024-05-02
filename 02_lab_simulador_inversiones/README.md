@@ -1,7 +1,7 @@
 # 02_lab_simulador_inversiones
 
 Bienvenido al simulador de inversiones, este programa fue creado con la finalidad de ayudar al usuario a tomar decisiones de inversiones
-Para su negocio dependiendo de dos factores los cuales deberá ingresar de acuerdo a la situación actual de su negocio.
+para su negocio dependiendo de dos factores los cuales deberá ingresar de acuerdo a la situación actual de su negocio.
 
 # instrucciones para usar el código
 
