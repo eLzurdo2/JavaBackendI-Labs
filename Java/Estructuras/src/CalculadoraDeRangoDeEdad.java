@@ -11,14 +11,14 @@ public class CalculadoraDeRangoDeEdad {
         } else if (edad <= 3) {
             System.out.println("Usted se ecuentra en la categoria de Bebe");
 
-        } else if (edad >=4 && edad <= 12) {
+        } else if (edad <= 12) {
             System.out.println("Usted es un Niño");
-        } else if (edad >= 13 && edad <= 17) {
+        } else if (edad <= 17) {
             System.out.println("Usted es un Adolecente");
-        } else if (edad >= 18 && edad <= 60) {
+        } else if (edad <= 60) {
             System.out.println("Usted es un Adulto");
 
-        } else if (edad >= 60 ) {
+        } else {
             System.out.println("Usted es un Anciano");
 
         }

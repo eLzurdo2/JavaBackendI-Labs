@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JavaBackendI-Labs.iml" filepath="$PROJECT_DIR$/JavaBackendI-Labs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_lab_simulador_inversiones.iml" filepath="$PROJECT_DIR$/02_lab_simulador_inversiones.iml" />
     </modules>
   </component>
 </project>
