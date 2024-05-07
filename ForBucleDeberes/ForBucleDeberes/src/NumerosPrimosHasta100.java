@@ -4,6 +4,8 @@ public class NumerosPrimosHasta100 {
             boolean esPrimo = true;
             for (int j = 2; j <= Math.sqrt(i); j++) {
                 if (i % j == 0) {
+                    esPrimo = false;
+                    break;
 
                 }
             }
@@ -14,3 +16,4 @@ public class NumerosPrimosHasta100 {
         }
     }
 }
+
