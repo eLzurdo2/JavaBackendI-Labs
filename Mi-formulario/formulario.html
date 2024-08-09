@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foro S/A/K</title>
+    <link rel="icon"  type="image/png" href="Nac.png">
+    <link rel="stylesheet" href="styles/Mi-main.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Bienvenido a nuestro foro de deportes S/A/K</h1>
+        <h2>Aquí podrás encontrar las últimas noticias de todos tus deportes favoritos</h2>
+        <h3>Por favor ingrese sus datos para poder registrarse</h3>
+    </header>
+    <form>
+        <br><br>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="ingrese su nombre" required><br><br>
+        <label for="nombre">Apellido</label>
+        <input type="text" id="nombre" name="nombre" placeholder="ingrese su apellido" required><br><br>
+        
+
+        <label for="nombre-usuario">Nombre de usuario</label>
+        <input  type="text" id="nombre-usuario" name="nombre-usuario" placeholder="ingrese un usuario" required><br><br>
+        
+        <label for="Descripción">Descripción</label>
+        <textarea rows="8" cols="40" id="Descripción" name="Descripción" placeholder="En este espacio puede dejar una breve descripción de su perfil"></textarea><br><br>
+
+        
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" name="email" placeholder="tu correo electronico" required><br><br>
+        
+        <label for="password">Ingrese tu contraseña</label>
+        <input type="password" id="password" name="password" placeholder="ingrese tu contraseña"><br><br>
+        
+        <label for="imagen">Seleccione una foto para su perfil</label>
+        <input type="file" id="imagen" name="imagen" accept="image/*"><br><br>
+
+        <p class="Gen">Genero</p>
+         <input type="radio" id="masculino" name="genero" value="masculino">
+         <label for="masculino">masculino</label>
+         <input type="radio" id="femenino" name="genero" value="femenino">
+         <label for="femenino">femenino</label>
+         <input type="radio" id="nobinario" name="genero" value="nobinario">
+         <label for="no binario">otro</label>
+
+         <p class="Int">Deportes favoritos</p>
+         <input type="checkbox" id="futbol" name="intereses" value="futbol">
+         <label for="futbol">Fútbol</label>
+         <input type="checkbox" id="baloncesto" name="intereses" value="baloncesto">
+         <label for="baloncesto">Baloncesto</label>
+         <input type="checkbox" id="tenis" name="intereses" value="tenis">
+         <label for="tenis">Tenis</label>
+         <input type="checkbox" id="beisbol" name="intereses" value="beisbol">
+         <label for="beisbol">Béisbol</label>
+         <input type="checkbox" id="natacion" name="intereses" value="natacion">
+         <label for="natacion">Natación</label>
+         <input type="checkbox" id="atletismo" name="intereses" value="atletismo">
+         <label for="atletismo">Atletismo</label>
+         <input type="checkbox" id="golf" name="intereses" value="golf">
+         <label for="golf">Golf</label>
+         <input type="checkbox" id="ciclismo" name="intereses" value="ciclismo">
+         <label for="ciclismo">Ciclismo</label>
+         <input type="checkbox" id="boxeo" name="intereses" value="boxeo">
+         <label for="boxeo">Boxeo</label>
+         <input type="checkbox" id="escalada" name="intereses" value="escalada">
+         <label for="escalada">Escalada</label>
+         <input type="checkbox" id="surf" name="intereses" value="surf">
+         <label for="surf">Surf</label>
+         <input type="checkbox" id="esqui" name="intereses" value="esqui">
+         <label for="esqui">Esquí</label>
+         <input type="checkbox" id="hockey" name="intereses" value="hockey">
+         <label for="hockey">Hockey</label>
+         <input type="checkbox" id="rugby" name="intereses" value="rugby">
+         <label for="rugby">Rugby</label>
+         <input type="checkbox" id="voleibol" name="intereses" value="voleibol">
+         <label for="voleibol">Voleibol</label>
+         <input type="checkbox" id="karate" name="intereses" value="karate">
+         <label for="karate">Karate</label>
+         <input type="checkbox" id="taekwondo" name="intereses" value="taekwondo">
+         <label for="taekwondo">Taekwondo</label>
+         <input type="checkbox" id="judo" name="intereses" value="judo">
+         <label for="judo">Judo</label>
+         <input type="checkbox" id="skateboarding" name="intereses" value="skateboarding">
+         <label for="skateboarding">Skateboarding</label>
+         <input type="checkbox" id="paracaidismo" name="intereses" value="paracaidismo">
+         <label for="paracaidismo">Paracaidismo</label>
+         <input type="checkbox" id="parapente" name="intereses" value="parapente">
+         <label for="parapente">Parapente</label>
+         <input type="checkbox" id="remo" name="intereses" value="remo">
+         <label for="remo">Remo</label>
+         <input type="checkbox" id="tiro" name="intereses" value="tiro">
+         <label for="tiro">Tiro</label>
+         <input type="checkbox" id="pesca" name="intereses" value="pesca">
+         <label for="pesca">Pesca</label>
+         <input type="checkbox" id="motociclismo" name="intereses" value="motociclismo">
+         <label for="motociclismo">Motociclismo</label>
+         <input type="checkbox" id="automovilismo" name="intereses" value="automovilismo">
+         <label for="automovilismo">Automovilismo</label><br><br>
+         
+         <label for="country">Ingrese su pais</label>
+         <input type="text" id="country" name="country" placeholder="" required><br><br>
+
+         <p class="TyC">Términos y condiciones</p>
+          <input type="checkbox" id="terminos" name="terminos" value="acepta" required checked>
+          <label for="terminos">Acepto los términos y condiciones</label><br><br>
+
+
+         
+        <input type="reset" value="Limpiar">
+        <input type="submit" value="Enviar">
+
+
+    </form> <br><br>
+    <footer>
+        <small>&copy; S/A/K-2004 </small> 
+    </footer>
+</body>
+</html>
