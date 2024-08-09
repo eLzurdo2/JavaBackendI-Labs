@@ -2,4 +2,4 @@
 
 ## Formulario
 <!-- [texto] (hipervinculo) -->
-[Mi-formulario] (./Mi-formulario/
+[Mi-formulario] (./Mi-formulario/formulario.html)
