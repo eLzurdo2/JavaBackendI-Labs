@@ -3,4 +3,4 @@
 ## Formulario
 <!-- [texto] (hipervinculo) -->
 
-[Mi-formulario](Mi-formulario/formulario.html)
+[Mi-formulario](./Mi-formulario/formulario.html)
