@@ -1,26 +1,146 @@
-h1{
+body {
+    background-image: url(wallpaper.jpg);
+    background-size: 105% 105%;
+    color: #FFF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    margin: 0.5rem;
+}
+
+h1 {
     font-size: 40px;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 
-h2{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+h2 {
     text-align: center;
     font-size: 21px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 
-h3{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+h3 {
     text-align: center;
     font-size: 15px;
-    
 }
 
-body {
-    background-image:url(wallpaper.jpg);
-    background-size: 105% 105%;
-    color: rgb(255, 255, 255);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.container {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
 }
 
+.form-registro {
+    width: 480px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 3px 1px 9px 4px rgba(0, 0, 0, 0.6);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea,
+input[type="file"] {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #FFF;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.Gen-options {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+}
+
+.Gen-options label {
+    display: flex;
+    align-items: center;
+}
+
+.sports-options {
+    list-style: none;
+    padding: 0;
+}
+
+.sports-options li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #FFF;
+}
+
+input[type="submit"] {
+    background-color: #019b91;
+}
+
+input[type="submit"]:hover {
+    background-color: #FFF;
+    color: #019b91;
+}
+
+input[type="reset"] {
+    background-color: #734cc7;
+}
+
+input[type="reset"]:hover {
+    background-color: #FFF;
+    color: #734cc7;
+}
+
+.TyC {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.TyC input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    color: white;
+    margin-top: 20px;
+}
